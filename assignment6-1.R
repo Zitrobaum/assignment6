@@ -1,5 +1,5 @@
 # install package
-#biocLite("HMM")
+biocLite("HMM")
 require(HMM)
 # number of throws
 nSim = 2000
