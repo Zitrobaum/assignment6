@@ -1,9 +1,9 @@
 # get biocmanager
-#if (!requireNamespace("BiocManager", quietly = TRUE))
-#  install.packages("BiocManager")
-#BiocManager::install()
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install()
 # install package
-#BiocManager::install("HMM")
+BiocManager::install("HMM")
 require(HMM)
 # number of throws
 nSim = 2000
